@@ -1,0 +1,137 @@
+@media print {
+	@page {
+		margin: 1cm 1cm 1cm 1.5cm; }
+	body {
+		margin: 1cm;
+	}
+}
+body{
+	border-style: solid;
+	border-color: black;
+	position: absolute;
+	padding: 30px 30px 30px 30px;
+
+	background-color: white;
+}
+label {
+  padding: 5px 5px 5px 15px;
+  display: inline-block;
+  font-weight: bold;
+}
+input{
+	font-weight: bold;
+	text-align: center;
+}
+input[type=text]{
+    border-style:solid;
+}
+.profile-img{
+  border-radius: 50%;
+}
+.col-nar{
+  width: 15%;
+  float: left;
+
+}
+.content-wrap{
+  max-width: 900px;
+  margin: 0 auto;
+  /*padding: 10px;*/
+  overflow: auto;
+}
+.col-wide{
+  width: 85%;
+  float: left;
+  /*padding-left: 20px;*/
+  /*padding-right: 15%;*/
+}
+.col-wide .aaa{
+	padding-right: 10%;
+
+}
+
+/*input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}*/
+#tbl-info
+{
+		border-collapse:collapse;
+		padding: 20px;
+		font-family: "Times New Roman", Times, serif;
+		font-size: large;
+		/*padding-right: 200px;*/
+		/*font-weight: bold;*/
+		/*fon/t-family:Century Gothic;*/
+		}
+		#tbl-info td{
+			padding-right: 20px;
+		}
+#tbl-details td, #tbl-details th{
+	font-size: large;
+	text-align: center;
+	padding: 0px 5px;
+}
+#tbl-g-scale td,#tbl-g-scale th{
+	border-collapse:collapse;
+	border: 1px solid black;
+	text-align: center;
+	padding: 0px 5px;
+	font-size: small;
+}
+#tbl-details , #tbl-details td ,#tbl-details th{
+	border-collapse:collapse;
+	border: 1px solid black;
+
+}
+#tbl-re-exam td{
+	padding-right: 100px;
+	text-align:center;
+}
+.table-c{background-color:#c0c0c0;border-color:inherit;text-align:left;vertical-align:top}
+
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+display: none;}
+
+/* Clear floats after the columns *
+		#tbl,#tbl2
+		{
+		border-collapse:collapse;
+		font-size:18;
+		font-family:Century Gothic;
+		}
+		.demo
+		{
+		position:absolute;
+		left:35px;
+		top:380px;
+		font-size:17;
+		font-family:Arial;
+		font-weight:bold;
+		margin-top:35px;
+		border-collapse:collapse;
+		}
+		#demoname
+		{
+		font-size:15px
+		}
+		.btn
+		{
+		position:absolute;
+		top:355px;
+		left:720px;
+		}*/

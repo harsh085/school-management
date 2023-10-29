@@ -1,5 +1,5 @@
 ###################
-School Management system
+School Management system - PHP7 (see new repo for PHP8)
 ###################
 
  
